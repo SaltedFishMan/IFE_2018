@@ -502,6 +502,10 @@ th, td {
 	background-position: 21%;
 }
 
+.aimBottom .textButton:hover {
+	background-color: #d9d9d9;
+}
+
 .aimBottom h2:nth-child(3) {
 	display: inline-block;
 	width: 918.28px;
