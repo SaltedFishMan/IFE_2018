@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body, div, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #414142;
+	font-family: "Microsoft Yahei", Arial, sans-serif;
+}
+
+.elem {
+	border: solid #6ac5ac 3px;
+	margin: 20px 0 20px 0;
+	height: 100px;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	line-height: 100px;
+	overflow: hidden;
+}
+
+
+
+.label {
+	top: 0;
+	left: 0;
+	padding: 0 3px 3px 0;
+	position: absolute;
+	line-height: 1em;
+	color: white;
+	background-color: #6ac5ac;
+}
+
+.endlabel {
+	bottom: 0;
+	right: 0;
+	padding: 3px 0 0 3px;
+	position: absolute;
+	line-height: 1em;
+	color: white;
+	background-color: #6ac5ac;
+}
+
+.color {
+	color: #fdc72f;
+}
+
+.font_family {
+	font-family: SimSun, sans-serif;
+}
+
+.font_style {
+	font-style: italic;
+}
+
+.font_weight {
+	font-weight: bold;
+}
+
+.font_size {
+	font-size: 99px;
+}
+
+.text_align {
+	text-align: right;
+}
+
+.text_decoration {
+	text-decoration: underline overline line-through;
+}
+
+.text_indent {
+	text-indent: 50px;
+}
+
+.line_height {
+	line-height: 30px;
+}
+
+.text_shadow {
+	text-shadow: 5px 5px 5px #6ac5ac;
+}

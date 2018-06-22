@@ -1,0 +1,286 @@
+/*页面结构部分*/
+
+* {
+	/*outline: 1px solid red;*/
+	/*所有尺寸除以2.5*/
+}
+
+p, ul, li, h1, h2, h3, div, dl, dt, dd, body {
+	margin: 0;
+	padding: 0;
+	font-family: “Microsoft yahei”；
+}
+
+li {
+	list-style: none;
+}
+
+.page {
+	width: 992px;
+	height: 1403px;
+	margin: 0 auto;
+	background-color: #f1eee7;
+}
+
+/*页面结构部分完*/
+
+
+/*页面左边栏部分*/
+/*左边栏顶部*/
+
+.leftBox {
+	width: 360px;
+	height: 1403px;
+	float: left;
+	background-color: #5DC2B0;
+	position: relative;
+}
+
+.leftBoxTop {
+	margin-top: : 60px;
+}
+
+.leftBox .leftBoxTop .imageBox {
+	margin: 0 auto;
+	margin-top: 60px;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.leftBox .leftBoxTop .imageBox img {
+	widows: 180px;
+	height: 180px;
+	border: 1px solid #6DB1A2;
+}
+
+.leftBox .leftBoxTop h1{
+	margin: 0 auto;
+	text-align: center;
+	color: #F1EEE9;
+	font-size: 36px;
+}
+
+.leftBox .leftBoxTop ul {
+	margin-top: 2px;
+}
+
+.leftBox .leftBoxTop ul li {
+	text-align: center;
+	color: #187B69;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.leftBox .leftBoxTop h3 {
+	text-align: center;
+	color: #1A7A6E;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.leftBox .leftBoxTop hr {
+	height: 1px;
+	border: none;
+	width: 240px;
+	background-color: #1E8371;
+}
+
+.leftBox .leftBoxTop .boxBorder {
+	height: 2px;
+	background-color: #1C7E6F;
+}
+
+/*左边栏顶部完*/
+/*左边栏中部*/
+
+.leftBox .leftBoxCenter ul {
+	width: 241px;
+	margin: 0 auto;
+}
+
+.leftBox .leftBoxCenter li {
+	color: #EEF0EB;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: right;
+
+}
+
+.leftBox .leftBoxCenter .skillBarBack {
+	display: inline-block;
+	width: 150px;
+	height: 16px;
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: #EFF0E8;
+	vertical-align: -10%;
+}
+
+.leftBox .leftBoxCenter .skillBarFront {
+	display: inline-block;
+	width: 22px;
+	height: 50px;
+	background-color: #3EB59F;
+}
+
+.leftBox .leftBoxCenter .barCss {
+	width: 35px;
+}
+
+.leftBox .leftBoxCenter .barJavascript {
+	width: 42px;
+}
+
+.leftBox .leftBoxCenter .barJquery {
+	width: 42px;
+}
+
+.leftBox .leftBoxCenter .barBootstrap {
+	width: 49px;
+}
+
+.leftBox .leftBoxCenter .barScss {
+	width: 49px;
+}
+
+.leftBox .leftBoxCenter .barThreejs {
+	width: 54px;
+}
+
+.leftBox .leftBoxCenter .barWebgl {
+	width: 82px;
+}
+
+.leftBox .leftBoxCenter .barWebaudio {
+	width: 92px;
+}
+
+.leftBox .leftBoxCenter .barWebrtc {
+	width: 104px;
+}
+
+.leftBox .leftBoxCenter p {
+	width: 240px;
+	margin: 0 auto;
+	color: #1C7F6D;
+	font-size: 15px;
+}
+
+/*左边栏中部完*/
+/*左边栏下部*/
+
+.leftBox .leftBoxBottom {
+	position: absolute;
+	bottom: 60px;
+	left: 60px;
+
+
+}
+
+.leftBox .leftBoxBottom ul {
+	width: 240px;
+	margin: 0 auto;
+	/*padding-bottom: 60px;*/
+}
+
+.leftBox .leftBoxBottom img {
+	width: 31px;
+	height: 31px;
+	vertical-align: middle;
+}
+
+.leftBox .leftBoxBottom a {
+	font-size: 21px;
+	color: #F4E0E2;
+	line-height: 36px;
+}
+
+/*左边栏下部完*/
+/*页面左边栏部分完*/
+
+/*页面右边栏部分*/
+
+.rightBox {
+	width: 632px;
+	height: 1403px;
+	float: right;
+}
+
+.rightBoxTop, .rightBoxCenter, .rightBoxBottom {
+	width: 535px;
+	margin: 0 auto;
+}
+
+.rightBox .rightBoxTop {
+	margin-top: 55px;
+}
+
+.rightBox .rightBoxTop div {
+	width: 535px;
+	height: 65px;
+}
+
+.rightBox h2 {
+	font-size: 31px;
+	color: #707070;
+	/*line-height: 54px;*/
+}
+
+.rightBox .rightBoxTop h2 {
+	float: left;
+	/*line-height: 41px;*/
+}
+
+.rightBox a {
+	font-size: 15px;
+	color: #068164;
+}
+
+.rightBox .rightBoxTop .myHomePage {
+	float: right;
+	padding-top: 5px;
+}
+
+.rightBox .rightBoxTop a {
+	display: block;
+	text-align: center;
+	padding-top: 17px;
+}
+
+.boxClear {
+	clear: both;
+}
+
+.rightBox dl dt {
+	font-size: 25px;
+	color: #4acbad;
+	line-height: 35px;
+}
+
+
+.rightBox dl dd {
+	font-size: 17px;
+	color: #878682;
+	/*line-height: 26px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.rightBox dl dd span {
+	font-size: 13px;
+	color: #277b64;
+	/*line-height: 23px;*/
+}
+
+
+.rightBox .rightBoxCenter, .rightBoxBottom h2 {
+	margin-top: 40px;
+}
+
+.rightBox dl .paddingDate {
+	padding-top: 0px;
+}
+/*页面右边栏部分完
